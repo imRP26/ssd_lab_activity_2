@@ -17,7 +17,7 @@ Else if even number of lines is detected, then the line having line number <stro
 Here, line numbers start with 1 in each input file.<br>
 The input files against which <strong>q1.sh</strong> has been tested are :- <strong>fileOdd.txt</strong> and <strong>fileEven.txt.</strong><br>
 In order to test for edge cases, <strong>q1.sh</strong> has also been tested with 2 other files, <strong>file0.txt</strong> and <strong>file1.txt</strong>, containing 0 and 1 line espectively.<br>
-Method of executing this script -> <strong>./q1.sh <filepath></strong>
+Method of executing this script -> <strong>./q1.sh filepath</strong>
 
 
 <h5>
