@@ -17,6 +17,7 @@ Else if even number of lines is detected, then the line having line number <stro
 Here, line numbers start with 1 in each input file.<br>
 The input files against which <strong>q1.sh</strong> has been tested are :- <strong>fileOdd.txt</strong> and <strong>fileEven.txt.</strong><br>
 In order to test for edge cases, <strong>q1.sh</strong> has also been tested with 2 other files, <strong>file0.txt</strong> and <strong>file1.txt</strong>, containing 0 and 1 line espectively.<br>
+Method of executing this script -> <strong>./q1.sh filepath</strong>
 
 
 <h5>
@@ -25,5 +26,5 @@ For Question 2 :-
   
 <strong>cat /etc/shells</strong> -> This lists out all the shells available in the system.<br>
 <strong>cat /etc/shells | grep -w 'usr'</strong> -> This lists out all those shells that belong to <strong>usr</strong>, or that have the substring <strong>/usr/</strong> in them.<br>
-<strong>cat /etc/shells | grep -w 'usr' | awk -F'/' '{print $NF}'</strong> -> Here, <strong>awk</strong> splits a string condiering <strong>/</strong> as the delimiter and <strong>$NF</strong> basically prints out the last component of the above split.
-
+<strong>cat /etc/shells | grep -w 'usr' | awk -F'/' '{print $NF}'</strong> -> Here, <strong>awk</strong> splits a string considering <strong>/</strong> as the delimiter and <strong>$NF</strong> basically prints out the last component of the above split.
+Method of executing this script -> <strong>./q2.sh</strong>
